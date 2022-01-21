@@ -1,0 +1,131 @@
+vivek333@C272LCOK:~$ ls
+Hashmum    docker        funct1.sh        nano.save    outputfile.txt  temp
+animal.sh  employee.txt  geekfile.txt     nano.save.1  report.txt      vivekrole
+array.sh   first.sh      getting-started  oddeven.sh   report_new.txt
+vivek333@C272LCOK:~$ nano
+vivek333@C272LCOK:~$ chmod 774 first.sh
+vivek333@C272LCOK:~$ #!/bin/bash
+vivek333@C272LCOK:~$ cat first.sh
+echo The script title is $0
+echo The first argument is $1
+echo The second argument is $2
+echo The third argument is $3
+vivek333@C272LCOK:~$ ./first.sh
+The script title is ./first.sh
+The first argument is
+The second argument is
+The third argument is
+vivek333@C272LCOK:~$ ./first.sh 54 646 78
+The script title is ./first.sh
+The first argument is 54
+The second argument is 646
+The third argument is 78
+vivek333@C272LCOK:~$ nano
+vivek333@C272LCOK:~$ chmod 774 animal.sh
+vivek333@C272LCOK:~$ ls -il animal.sh
+406 -rwxrwxr-- 1 vivek333 vivek333 260 Jan 20 12:12 animal.sh
+vivek333@C272LCOK:~$ cat animal.sh
+echo "enter fav dog breed"
+read breed
+if [ $breed = lab ]
+        then echo " i love lab "
+elif [ $breed = pug ]
+        then echo " i love pugs "
+elif [ $breed = golden_retreiver ]
+        then echo " i love retrevers "
+        else echo " i love $breed "
+fi
+vivek333@C272LCOK:~$ #!/bin/bash
+vivek333@C272LCOK:~$ ./animal.sh
+enter fav dog breed
+fish
+ i love fish
+vivek333@C272LCOK:~$ nano array.sh
+vivek333@C272LCOK:~$ chmod 774 array.sh
+vivek333@C272LCOK:~$ #!/bin/bash
+vivek333@C272LCOK:~$ cat array.sh
+friends=("tom" "harry" "peter" "john")
+for frnd in "${friends[@]}"
+        do
+                echo "$frnd"
+        done
+vivek333@C272LCOK:~$ ./array.sh
+tom
+harry
+peter
+john
+vivek333@C272LCOK:~$ nano oddeven.sh
+vivek333@C272LCOK:~$ chmod 777 oddeven.sh
+vivek333@C272LCOK:~$ ls -il oddeven.sh
+414 -rwxrwxrwx 1 vivek333 vivek333 125 Jan  7 22:22 oddeven.sh
+vivek333@C272LCOK:~$ cat oddeven.sh
+echo enter a number :
+read number
+if [ $((number % 2)) -eq 0 ]
+        then echo even number
+        else echo odd number
+fi
+vivek333@C272LCOK:~$ #!/bin/bash
+vivek333@C272LCOK:~$ ./oddeven.sh
+enter a number :
+5
+odd number
+vivek333@C272LCOK:~$ nano funct1.sh
+vivek333@C272LCOK:~$ chmod 777 funct1.sh
+vivek333@C272LCOK:~$ cat funct1.sh
+funct1(){
+        echo "function with arguments"
+        echo "$1"
+        echo "hello, $2"
+}
+funct1 $! $2
+vivek333@C272LCOK:~$ #!/bin/bash
+vivek333@C272LCOK:~$ ./funct1.sh
+function with arguments
+
+hello,
+vivek333@C272LCOK:~$ sudo apt install ansible
+[sudo] password for vivek333:
+Reading package lists... Done
+Building dependency tree
+Reading state information... Done
+ansible is already the newest version (2.9.6+dfsg-1).
+The following packages were automatically installed and are no longer required:
+  docker-ce-rootless-extras docker-scan-plugin slirp4netns
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 10 not upgraded.
+vivek333@C272LCOK:~$ ansible-galaxy init --force --offline vivekrole
+- Role vivekrole was created successfully
+vivek333@C272LCOK:~$ sudo apt install tree
+Reading package lists... Done
+Building dependency tree
+Reading state information... Done
+tree is already the newest version (1.8.0-1).
+The following packages were automatically installed and are no longer required:
+  docker-ce-rootless-extras docker-scan-plugin slirp4netns
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 10 not upgraded.
+vivek333@C272LCOK:~$ tree vivekrole
+vivekrole
+├── README.md
+├── defaults
+│   └── main.yml
+├── files
+├── handlers
+│   └── main.yml
+├── meta
+│   └── main.yml
+├── tasks
+│   └── main.yml
+├── templates
+├── tests
+│   ├── inventory
+│   └── test.yml
+└── vars
+    └── main.yml
+
+8 directories, 8 files
+vivek333@C272LCOK:~$ cd vivekrole/
+vivek333@C272LCOK:~/vivekrole$ ls
+README.md  defaults  files  handlers  meta  tasks  templates  tests  vars
+vivek333@C272LCOK:~/vivekrole$
