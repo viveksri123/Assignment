@@ -1,0 +1,1243 @@
+vivek333@C272LCOK:~$ pwd
+/home/vivek333
+vivek333@C272LCOK:~$ ls
+Hashmum    docker        funct1.sh        nano.save    outputfile.txt  temp
+animal.sh  employee.txt  geekfile.txt     nano.save.1  report.txt      vivekrole
+array.sh   first.sh      getting-started  oddeven.sh   report_new.txt
+vivek333@C272LCOK:~$ cd temp
+vivek333@C272LCOK:~/temp$ ls
+abdtutor  file1  foldr1  newfile
+vivek333@C272LCOK:~/temp$ mkdir abdtutor
+mkdir: cannot create directory ‘abdtutor’: File exists
+vivek333@C272LCOK:~/temp$ ls
+abdtutor  file1  foldr1  newfile
+vivek333@C272LCOK:~/temp$ cd abdtutor/
+vivek333@C272LCOK:~/temp/abdtutor$ LS
+LS: command not found
+vivek333@C272LCOK:~/temp/abdtutor$ ls
+dir1  dir2
+vivek333@C272LCOK:~/temp/abdtutor$ mkdir dir3 dir4
+vivek333@C272LCOK:~/temp/abdtutor$ ls
+dir1  dir2  dir3  dir4
+vivek333@C272LCOK:~/temp/abdtutor$ cd ..
+vivek333@C272LCOK:~/temp$ cd abdtutor/dir1
+vivek333@C272LCOK:~/temp/abdtutor/dir1$ cd ..
+vivek333@C272LCOK:~/temp/abdtutor$ pwd
+/home/vivek333/temp/abdtutor
+vivek333@C272LCOK:~/temp/abdtutor$ cd ../..
+vivek333@C272LCOK:~$ cd /
+vivek333@C272LCOK:/$ pwd
+/
+vivek333@C272LCOK:/$ ls
+bin   dev  home  lib    lib64   lost+found  mnt  proc  run   snap  sys  usr
+boot  etc  init  lib32  libx32  media       opt  root  sbin  srv   tmp  var
+vivek333@C272LCOK:/$ cd usr
+vivek333@C272LCOK:/usr$ ls
+bin  config  games  include  lib  lib32  lib64  libexec  libx32  local  sbin  share  src
+vivek333@C272LCOK:/usr$ cd bin/
+vivek333@C272LCOK:/usr/bin$ ls
+ NF                                    openvt
+ VGAuthService                         pa-info
+ X11                                   pacat
+'['                                    pacmd
+ aa-enabled                            pactl
+ aa-exec                               padsp
+ activate-global-python-argcomplete3   pager
+ add-apt-repository                    pamon
+ addpart                               paplay
+ ansible                               parec
+ ansible-config                        parecord
+ ansible-connection                    partx
+ ansible-console                       passwd
+ ansible-doc                           paste
+ ansible-galaxy                        pastebinit
+ ansible-inventory                     pasuspender
+ ansible-playbook                      patch
+ ansible-pull                          pathchk
+ ansible-vault                         pax11publish
+ apport-bug                            pbget
+ apport-cli                            pbput
+ apport-collect                        pbputs
+ apport-unpack                         pdb3
+ appres                                pdb3.8
+ apropos                               peekfd
+ apt                                   perl
+ apt-add-repository                    perl5.30-x86_64-linux-gnu
+ apt-cache                             perl5.30.0
+ apt-cdrom                             perlbug
+ apt-config                            perldoc
+ apt-extracttemplates                  perlivp
+ apt-ftparchive                        perlthanks
+ apt-get                               pftp
+ apt-key                               pgrep
+ apt-mark                              pic
+ apt-sortpkgs                          pico
+ arch                                  piconv
+ at                                    pidof
+ atq                                   pigz
+ atrm                                  pinentry
+ automat-visualize3                    pinentry-curses
+ awk                                   ping
+ b2sum                                 ping4
+ base32                                ping6
+ base64                                pinky
+ basename                              pkaction
+ bash                                  pkcheck
+ bashbug                               pkcon
+ batch                                 pkexec
+ bc                                    pkill
+ boltctl                               pkmon
+ bootctl                               pkttyagent
+ bsd-from                              pl2pm
+ bsd-write                             pldd
+ btrfs                                 plymouth
+ btrfs-convert                         pmap
+ btrfs-find-root                       pod2html
+ btrfs-image                           pod2man
+ btrfs-map-logical                     pod2text
+ btrfs-select-super                    pod2usage
+ btrfsck                               podchecker
+ btrfstune                             podselect
+ bunzip2                               pollinate
+ busctl                                pr
+ busybox                               preconv
+ byobu                                 print
+ byobu-config                          printenv
+ byobu-ctrl-a                          printerbanner
+ byobu-disable                         printf
+ byobu-disable-prompt                  prlimit
+ byobu-enable                          prove
+ byobu-enable-prompt                   prtstat
+ byobu-export                          ps
+ byobu-janitor                         psfaddtable
+ byobu-keybindings                     psfgettable
+ byobu-launch                          psfstriptable
+ byobu-launcher                        psfxtable
+ byobu-launcher-install                pslog
+ byobu-launcher-uninstall              pstree
+ byobu-layout                          pstree.x11
+ byobu-prompt                          ptar
+ byobu-quiet                           ptardiff
+ byobu-reconnect-sockets               ptargrep
+ byobu-screen                          ptx
+ byobu-select-backend                  purge-old-kernels
+ byobu-select-profile                  pwd
+ byobu-select-session                  pwdx
+ byobu-shell                           py3clean
+ byobu-silent                          py3compile
+ byobu-status                          py3versions
+ byobu-status-detail                   pydoc3
+ byobu-tmux                            pydoc3.8
+ byobu-ugraph                          pygettext3
+ byobu-ulevel                          pygettext3.8
+ bzcat                                 pyhtmlizer3
+ bzcmp                                 pyjwt3
+ bzdiff                                python-argcomplete-check-easy-install-script3
+ bzegrep                               python-argcomplete-tcsh3
+ bzexe                                 python3
+ bzfgrep                               python3.8
+ bzgrep                                rbash
+ bzip2                                 rcp
+ bzip2recover                          rdma
+ bzless                                readlink
+ bzmore                                realpath
+ c_rehash                              red
+ cal                                   register-python-argcomplete3
+ calendar                              rename.ul
+ captoinfo                             renice
+ cat                                   rescan-scsi-bus.sh
+ catchsegv                             reset
+ catman                                resizecons
+ cautious-launcher                     resizepart
+ cftp3                                 resolvectl
+ cgroupfs-mount                        rev
+ cgroupfs-umount                       rgrep
+ chage                                 rlogin
+ chardet3                              rm
+ chardetect3                           rmdir
+ chattr                                rnano
+ chcon                                 rootlesskit
+ check-language-support                rootlesskit-docker-proxy
+ chfn                                  routef
+ chgrp                                 routel
+ chmod                                 rrsync
+ choom                                 rsh
+ chown                                 rsync
+ chrt                                  rtstat
+ chsh                                  run-mailcap
+ chvt                                  run-one
+ ckbcomp                               run-one-constantly
+ ckeygen3                              run-one-until-failure
+ cksum                                 run-one-until-success
+ clear                                 run-parts
+ clear_console                         run-this-one
+ cloud-id                              runcon
+ cloud-init                            rview
+ cloud-init-per                        rvim
+ cmp                                   savelog
+ codepage                              sbattach
+ col                                   sbkeysync
+ col1                                  sbsiglist
+ col2                                  sbsign
+ col3                                  sbvarsign
+ col4                                  sbverify
+ col5                                  scp
+ col6                                  screen
+ col7                                  screendump
+ col8                                  script
+ col9                                  scriptreplay
+ colcrt                                scsi_logging_level
+ colrm                                 scsi_mandat
+ column                                scsi_readcap
+ comm                                  scsi_ready
+ compose                               scsi_satl
+ conch3                                scsi_start
+ containerd                            scsi_stop
+ containerd-shim                       scsi_temperature
+ containerd-shim-runc-v1               sdiff
+ containerd-shim-runc-v2               sed
+ containerd-stress                     see
+ corelist                              select-editor
+ cp                                    sensible-browser
+ cpan                                  sensible-editor
+ cpan5.30-x86_64-linux-gnu             sensible-pager
+ cpio                                  seq
+ crontab                               setarch
+ csplit                                setfont
+ ctail                                 setkeycodes
+ ctr                                   setleds
+ ctstat                                setlogcons
+ curl                                  setmetamode
+ cut                                   setpci
+ cvtsudoers                            setpriv
+ dash                                  setsid
+ date                                  setterm
+ dbus-cleanup-sockets                  setupcon
+ dbus-daemon                           sftp
+ dbus-launch                           sg
+ dbus-monitor                          sg_bg_ctl
+ dbus-run-session                      sg_compare_and_write
+ dbus-send                             sg_copy_results
+ dbus-update-activation-environment    sg_dd
+ dbus-uuidgen                          sg_decode_sense
+ dbxtool                               sg_emc_trespass
+ dd                                    sg_format
+ deallocvt                             sg_get_config
+ deb-systemd-helper                    sg_get_lba_status
+ deb-systemd-invoke                    sg_ident
+ debconf                               sg_inq
+ debconf-apt-progress                  sg_logs
+ debconf-communicate                   sg_luns
+ debconf-copydb                        sg_map
+ debconf-escape                        sg_map26
+ debconf-set-selections                sg_modes
+ debconf-show                          sg_opcodes
+ debian-distro-info                    sg_persist
+ delpart                               sg_prevent
+ delv                                  sg_raw
+ df                                    sg_rbuf
+ dfu-tool                              sg_rdac
+ dh_bash-completion                    sg_read
+ diff                                  sg_read_attr
+ diff3                                 sg_read_block_limits
+ dig                                   sg_read_buffer
+ dir                                   sg_read_long
+ dircolors                             sg_readcap
+ dirmngr                               sg_reassign
+ dirmngr-client                        sg_referrals
+ dirname                               sg_rep_zones
+ distro-info                           sg_requests
+ dmesg                                 sg_reset
+ dnsdomainname                         sg_reset_wp
+ do-release-upgrade                    sg_rmsn
+ docker                                sg_rtpg
+ docker-init                           sg_safte
+ docker-proxy                          sg_sanitize
+ dockerd                               sg_sat_identify
+ dockerd-rootless-setuptool.sh         sg_sat_phy_event
+ dockerd-rootless.sh                   sg_sat_read_gplog
+ domainname                            sg_sat_set_features
+ dpkg                                  sg_scan
+ dpkg-deb                              sg_seek
+ dpkg-divert                           sg_senddiag
+ dpkg-maintscript-helper               sg_ses
+ dpkg-query                            sg_ses_microcode
+ dpkg-split                            sg_start
+ dpkg-statoverride                     sg_stpg
+ dpkg-trigger                          sg_stream_ctl
+ du                                    sg_sync
+ dumpkeys                              sg_test_rwbuf
+ eatmydata                             sg_timestamp
+ ec2metadata                           sg_turs
+ echo                                  sg_unmap
+ ed                                    sg_verify
+ edit                                  sg_vpd
+ editor                                sg_wr_mode
+ editres                               sg_write_buffer
+ egrep                                 sg_write_long
+ eject                                 sg_write_same
+ enc2xs                                sg_write_verify
+ encguess                              sg_write_x
+ env                                   sg_xcopy
+ envsubst                              sg_zone
+ eqn                                   sginfo
+ ex                                    sgm_dd
+ expand                                sgp_dd
+ expiry                                sh
+ expr                                  sha1sum
+ factor                                sha224sum
+ faillog                               sha256sum
+ fallocate                             sha384sum
+ false                                 sha512sum
+ fgconsole                             shasum
+ fgrep                                 showconsolefont
+ file                                  showkey
+ finalrd                               shred
+ fincore                               shuf
+ find                                  skill
+ findmnt                               slabtop
+ flock                                 sleep
+ fmt                                   slirp4netns
+ fold                                  slogin
+ free                                  snap
+ from                                  snapctl
+ ftp                                   snapfuse
+ fuser                                 snice
+ fusermount                            soelim
+ fwupdagent                            sort
+ fwupdate                              sos
+ fwupdmgr                              sos-collector
+ fwupdtool                             sosreport
+ fwupdtpmevlog                         splain
+ gapplication                          split
+ gawk                                  splitfont
+ gdbus                                 ss
+ geqn                                  ssh
+ getconf                               ssh-add
+ getent                                ssh-agent
+ getkeycodes                           ssh-argv0
+ getopt                                ssh-copy-id
+ gettext                               ssh-import-id
+ gettext.sh                            ssh-import-id-gh
+ ginstall-info                         ssh-import-id-lp
+ gio                                   ssh-keygen
+ gio-querymodules                      ssh-keyscan
+ git                                   stat
+ git-receive-pack                      static-sh
+ git-shell                             stdbuf
+ git-upload-archive                    strace
+ git-upload-pack                       strace-log-merge
+ glib-compile-schemas                  stty
+ gpasswd                               su
+ gpg                                   sudo
+ gpg-agent                             sudoedit
+ gpg-connect-agent                     sudoreplay
+ gpg-wks-server                        sum
+ gpg-zip                               symcryptrun
+ gpgcompose                            sync
+ gpgconf                               systemctl
+ gpgparsemail                          systemd
+ gpgsm                                 systemd-analyze
+ gpgsplit                              systemd-ask-password
+ gpgtar                                systemd-cat
+ gpgv                                  systemd-cgls
+ gpic                                  systemd-cgtop
+ grep                                  systemd-delta
+ gresource                             systemd-detect-virt
+ groff                                 systemd-escape
+ grog                                  systemd-hwdb
+ grops                                 systemd-id128
+ grotty                                systemd-inhibit
+ groups                                systemd-machine-id-setup
+ growpart                              systemd-mount
+ gsettings                             systemd-notify
+ gtbl                                  systemd-path
+ gunzip                                systemd-resolve
+ gzexe                                 systemd-run
+ gzip                                  systemd-socket-activate
+ h2ph                                  systemd-stdio-bridge
+ h2xs                                  systemd-sysusers
+ hd                                    systemd-tmpfiles
+ head                                  systemd-tty-ask-password-agent
+ helpztags                             systemd-umount
+ hexdump                               tabs
+ host                                  tac
+ hostid                                tail
+ hostname                              tar
+ hostnamectl                           taskset
+ htop                                  tbl
+ hwe-support-status                    tee
+ i386                                  telnet
+ iconv                                 telnet.netkit
+ id                                    tempfile
+ info                                  test
+ infobrowser                           tic
+ infocmp                               time
+ infotocap                             timedatectl
+ install                               timeout
+ install-info                          tkconch3
+ instmodsh                             tload
+ ionice                                tmux
+ ip                                    toe
+ ipcmk                                 top
+ ipcrm                                 touch
+ ipcs                                  tput
+ iptables-xml                          tr
+ ischroot                              tracepath
+ iscsiadm                              traceroute6
+ join                                  traceroute6.iputils
+ journalctl                            tree
+ json_pp                               trial3
+ jsondiff                              troff
+ jsonpatch                             true
+ jsonpatch-jsondiff                    truncate
+ jsonpointer                           tset
+ jsonschema                            tsort
+ kbd_mode                              tty
+ kbdinfo                               twist3
+ kbxutil                               twistd3
+ keep-one-running                      tzselect
+ kernel-install                        ua
+ keyring                               ubuntu-advantage
+ kill                                  ubuntu-bug
+ killall                               ubuntu-core-launcher
+ kmod                                  ubuntu-distro-info
+ kmodsign                              ubuntu-security-status
+ landscape-sysinfo                     ucf
+ last                                  ucfq
+ lastb                                 ucfr
+ lastlog                               udevadm
+ lcf                                   udisksctl
+ ldd                                   ul
+ less                                  ulockmgr_server
+ lessecho                              umount
+ lessfile                              uname
+ lesskey                               unattended-upgrade
+ lesspipe                              unattended-upgrades
+ lexgrog                               uncompress
+ libnetcfg                             unexpand
+ link                                  unicode_start
+ linux-check-removal                   unicode_stop
+ linux-update-symlinks                 uniq
+ linux-version                         unlink
+ linux32                               unlz4
+ linux64                               unlzma
+ listres                               unmkinitramfs
+ ln                                    unpigz
+ lnstat                                unshare
+ loadkeys                              unsquashfs
+ loadunimap                            unxz
+ locale                                update-alternatives
+ locale-check                          update-mime-database
+ localectl                             uptime
+ localedef                             usb-devices
+ logger                                usbhid-dump
+ login                                 usbreset
+ loginctl                              users
+ logname                               utmpdump
+ look                                  uuidgen
+ lorder                                uuidparse
+ lowntfs-3g                            vcs-run
+ ls                                    vdir
+ lsattr                                vi
+ lsb_release                           view
+ lsblk                                 viewres
+ lscpu                                 vigpg
+ lshw                                  vim
+ lsinitramfs                           vim.basic
+ lsipc                                 vim.tiny
+ lslocks                               vimdiff
+ lslogins                              vimtutor
+ lsmem                                 viwsl
+ lsmod                                 vm-support
+ lsns                                  vmhgfs-fuse
+ lsof                                  vmstat
+ lspci                                 vmtoolsd
+ lspgpot                               vmware-alias-import
+ lsusb                                 vmware-checkvm
+ ltrace                                vmware-hgfsclient
+ luit                                  vmware-namespace-cmd
+ lz4                                   vmware-rpctool
+ lz4c                                  vmware-toolbox-cmd
+ lz4cat                                vmware-vgauth-cmd
+ lzcat                                 vmware-vmblock-fuse
+ lzcmp                                 vmware-xferlogs
+ lzdiff                                volname
+ lzegrep                               w
+ lzfgrep                               w.procps
+ lzgrep                                wall
+ lzless                                watch
+ lzma                                  watchgnupg
+ lzmainfo                              wc
+ lzmore                                wdctl
+ mailmail3                             wget
+ man                                   whatis
+ man-recode                            whereis
+ mandb                                 which
+ manifest                              whiptail
+ manpath                               who
+ mapscrn                               whoami
+ mawk                                  wifi-status
+ mcookie                               wmdocker
+ md5sum                                write
+ md5sum.textutils                      wsl
+ mdig                                  wslcred
+ mesa-overlay-control.py               wslecn
+ mesg                                  wslenum
+ migrate-pubring-from-classic-gpg      wslfetch
+ miniterm                              wslget
+ mk_modmap                             wslid
+ mkdir                                 wslinvoke
+ mkfifo                                wslpath
+ mknod                                 wslput
+ mksquashfs                            wslsys
+ mktemp                                wslupath
+ more                                  wslusc
+ mount                                 wslvar
+ mountpoint                            wslview
+ mt                                    www-browser
+ mt-gnu                                wxmlgetvalue
+ mtr                                   x-www-browser
+ mtr-packet                            x86_64
+ mv                                    xargs
+ namei                                 xauth
+ nano                                  xdg-user-dir
+ nawk                                  xdg-user-dirs-update
+ nc                                    xdpyinfo
+ nc.openbsd                            xdriinfo
+ ncal                                  xev
+ neqn                                  xfd
+ netcat                                xfontsel
+ netkit-ftp                            xkill
+ networkctl                            xlsatoms
+ networkd-dispatcher                   xlsclients
+ newgrp                                xlsfonts
+ ngettext                              xmessage
+ nice                                  xmlcatalog
+ nisdomainname                         xmllint
+ nl                                    xprop
+ nohup                                 xsltproc
+ nproc                                 xsubpp
+ nroff                                 xvinfo
+ nsenter                               xwininfo
+ nslookup                              xxd
+ nstat                                 xz
+ nsupdate                              xzcat
+ ntfs-3g                               xzcmp
+ ntfs-3g.probe                         xzdiff
+ ntfscat                               xzegrep
+ ntfscluster                           xzfgrep
+ ntfscmp                               xzgrep
+ ntfsdecrypt                           xzless
+ ntfsfallocate                         xzmore
+ ntfsfix                               yes
+ ntfsinfo                              ypdomainname
+ ntfsls                                zcat
+ ntfsmove                              zcmp
+ ntfsrecover                           zdiff
+ ntfssecaudit                          zdump
+ ntfstruncate                          zegrep
+ ntfsusermap                           zfgrep
+ ntfswipe                              zforce
+ numfmt                                zgrep
+ od                                    zipdetails
+ oem-getlogs                           zless
+ on_ac_power                           zmore
+ openssl                               znew
+vivek333@C272LCOK:/usr/bin$ cd ..
+vivek333@C272LCOK:/usr$ cd ..
+vivek333@C272LCOK:/$ ls
+bin   dev  home  lib    lib64   lost+found  mnt  proc  run   snap  sys  usr
+boot  etc  init  lib32  libx32  media       opt  root  sbin  srv   tmp  var
+vivek333@C272LCOK:/$ cd
+vivek333@C272LCOK:~$ /
+-bash: /: Is a directory
+vivek333@C272LCOK:~$ pwd
+/home/vivek333
+vivek333@C272LCOK:~$ ls
+Hashmum    docker        funct1.sh        nano.save    outputfile.txt  temp
+animal.sh  employee.txt  geekfile.txt     nano.save.1  report.txt      vivekrole
+array.sh   first.sh      getting-started  oddeven.sh   report_new.txt
+vivek333@C272LCOK:~$ cd temp/
+vivek333@C272LCOK:~/temp$ mkdir -p foldr1/infoldr
+vivek333@C272LCOK:~/temp$ ls
+abdtutor  file1  foldr1  newfile
+vivek333@C272LCOK:~/temp$ cd foldr1/
+vivek333@C272LCOK:~/temp/foldr1$ ls
+infoldr  mix.txt
+vivek333@C272LCOK:~/temp/foldr1$ cd ../..
+vivek333@C272LCOK:~$ ls > outputfile.txt
+vivek333@C272LCOK:~$ cat outputfile.txt
+Hashmum
+animal.sh
+array.sh
+docker
+employee.txt
+first.sh
+funct1.sh
+geekfile.txt
+getting-started
+nano.save
+nano.save.1
+oddeven.sh
+outputfile.txt
+report.txt
+report_new.txt
+temp
+vivekrole
+vivek333@C272LCOK:~$ cd temp
+vivek333@C272LCOK:~/temp$ cd foldr1/
+vivek333@C272LCOK:~/temp/foldr1$ echo " Hello! Welcome to linux > mytext.txt
+> ^C
+vivek333@C272LCOK:~/temp/foldr1$ cat mytext.txt
+cat: mytext.txt: No such file or directory
+vivek333@C272LCOK:~/temp/foldr1$ echo " Hello! Welcome to linux > mytext1.txt
+> cat mytext1.txt
+> ^C
+vivek333@C272LCOK:~/temp/foldr1$ cat mytext1.txt
+cat: mytext1.txt: No such file or directory
+vivek333@C272LCOK:~/temp/foldr1$ touch mytext1.txt
+vivek333@C272LCOK:~/temp/foldr1$ ls
+infoldr  mix.txt  mytext1.txt
+vivek333@C272LCOK:~/temp/foldr1$ echo " Hello! Welcome to linux > mytext1.txt
+> ^C
+vivek333@C272LCOK:~/temp/foldr1$ cat mytext1.txt
+vivek333@C272LCOK:~/temp/foldr1$ nano mytext1.txt
+vivek333@C272LCOK:~/temp/foldr1$ echo " Hello! Welcome to linux" > mytext1.txt
+vivek333@C272LCOK:~/temp/foldr1$ cat mytext1.txt
+ Hello! Welcome to linux
+vivek333@C272LCOK:~/temp/foldr1$ cat my*
+ Hello! Welcome to linux
+vivek333@C272LCOK:~/temp/foldr1$ echo "Welcome all" > mytext.txt
+vivek333@C272LCOK:~/temp/foldr1$ cat mytext.txt
+Welcome all
+vivek333@C272LCOK:~/temp/foldr1$ cat mytext.txt mytext1.txt
+Welcome all
+ Hello! Welcome to linux
+vivek333@C272LCOK:~/temp/foldr1$ ls
+infoldr  mix.txt  mytext.txt  mytext1.txt
+vivek333@C272LCOK:~/temp/foldr1$ cat my* > mix1.txt
+vivek333@C272LCOK:~/temp/foldr1$ cat mix1.txt
+Welcome all
+ Hello! Welcome to linux
+vivek333@C272LCOK:~/temp/foldr1$ echo " we are added this extra line" >> mix.txt
+vivek333@C272LCOK:~/temp/foldr1$ cat m
+cat: m: No such file or directory
+vivek333@C272LCOK:~/temp/foldr1$ cat mix.txt
+Hello! welcome to linux
+Hello! how are you
+Now, we are appending this line
+ we are added this extra line
+vivek333@C272LCOK:~/temp/foldr1$ less
+Missing filename ("less --help" for help)
+vivek333@C272LCOK:~/temp/foldr1$ less mytext1.txt
+vivek333@C272LCOK:~/temp/foldr1$ ls
+infoldr  mix.txt  mix1.txt  mytext.txt  mytext1.txt
+vivek333@C272LCOK:~/temp/foldr1$ mv mix.txt temp
+vivek333@C272LCOK:~/temp/foldr1$ ls
+infoldr  mix1.txt  mytext.txt  mytext1.txt  temp
+vivek333@C272LCOK:~/temp/foldr1$ cd temp
+-bash: cd: temp: Not a directory
+vivek333@C272LCOK:~/temp/foldr1$ ls
+infoldr  mix1.txt  mytext.txt  mytext1.txt  temp
+vivek333@C272LCOK:~/temp/foldr1$ mv mytext.txt infoldr
+vivek333@C272LCOK:~/temp/foldr1$ ls
+infoldr  mix1.txt  mytext1.txt  temp
+vivek333@C272LCOK:~/temp/foldr1$ cd infoldr/
+vivek333@C272LCOK:~/temp/foldr1/infoldr$ ls
+mytext.txt  text2
+vivek333@C272LCOK:~/temp/foldr1/infoldr$ cd ..
+vivek333@C272LCOK:~/temp/foldr1$ cd ..
+vivek333@C272LCOK:~/temp$ ls
+abdtutor  file1  foldr1  newfile
+vivek333@C272LCOK:~/temp$ touch file2
+vivek333@C272LCOK:~/temp$ ls
+abdtutor  file1  file2  foldr1  newfile
+vivek333@C272LCOK:~/temp$ cp file2 newfile1
+vivek333@C272LCOK:~/temp$ ls
+abdtutor  file1  file2  foldr1  newfile  newfile1
+vivek333@C272LCOK:~/temp$ mv file2 newfile2
+vivek333@C272LCOK:~/temp$ ls
+abdtutor  file1  foldr1  newfile  newfile1  newfile2
+vivek333@C272LCOK:~/temp$ cd ..
+vivek333@C272LCOK:~$ whoami
+vivek333
+vivek333@C272LCOK:~$ who
+vivek333@C272LCOK:~$ w
+ 10:38:58 up 30 min,  0 users,  load average: 0.00, 0.00, 0.00
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+vivek333@C272LCOK:~$ id
+uid=1000(vivek333) gid=1000(vivek333) groups=1000(vivek333),4(adm),20(dialout),24(cdrom),25(floppy),27(sudo),29(audio),30(dip),44(video),46(plugdev),117(netdev),999(docker)
+vivek333@C272LCOK:~$ passwd
+Changing password for vivek333.
+Current password:
+New password:
+Retype new password:
+passwd: password updated successfully
+vivek333@C272LCOK:~$ man sudo
+vivek333@C272LCOK:~$ sudo adduser cherry
+[sudo] password for vivek333:
+Sorry, try again.
+[sudo] password for vivek333:
+Adding user `cherry' ...
+Adding new group `cherry' (1011) ...
+Adding new user `cherry' (1009) with group `cherry' ...
+Creating home directory `/home/cherry' ...
+Copying files from `/etc/skel' ...
+New password:
+Retype new password:
+passwd: password updated successfully
+Changing the user information for cherry
+Enter the new value, or press ENTER for the default
+        Full Name []:
+        Room Number []:
+        Work Phone []:
+        Home Phone []:
+        Other []:
+Is the information correct? [Y/n] y
+vivek333@C272LCOK:~$ cat /etc/passwd
+root:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+bin:x:2:2:bin:/bin:/usr/sbin/nologin
+sys:x:3:3:sys:/dev:/usr/sbin/nologin
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/usr/sbin/nologin
+man:x:6:12:man:/var/cache/man:/usr/sbin/nologin
+lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin
+mail:x:8:8:mail:/var/mail:/usr/sbin/nologin
+news:x:9:9:news:/var/spool/news:/usr/sbin/nologin
+uucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin
+proxy:x:13:13:proxy:/bin:/usr/sbin/nologin
+www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
+backup:x:34:34:backup:/var/backups:/usr/sbin/nologin
+list:x:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin
+irc:x:39:39:ircd:/var/run/ircd:/usr/sbin/nologin
+gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/usr/sbin/nologin
+nobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin
+systemd-network:x:100:102:systemd Network Management,,,:/run/systemd:/usr/sbin/nologin
+systemd-resolve:x:101:103:systemd Resolver,,,:/run/systemd:/usr/sbin/nologin
+systemd-timesync:x:102:104:systemd Time Synchronization,,,:/run/systemd:/usr/sbin/nologin
+messagebus:x:103:106::/nonexistent:/usr/sbin/nologin
+syslog:x:104:110::/home/syslog:/usr/sbin/nologin
+_apt:x:105:65534::/nonexistent:/usr/sbin/nologin
+tss:x:106:111:TPM software stack,,,:/var/lib/tpm:/bin/false
+uuidd:x:107:112::/run/uuidd:/usr/sbin/nologin
+tcpdump:x:108:113::/nonexistent:/usr/sbin/nologin
+sshd:x:109:65534::/run/sshd:/usr/sbin/nologin
+landscape:x:110:115::/var/lib/landscape:/usr/sbin/nologin
+pollinate:x:111:1::/var/cache/pollinate:/bin/false
+vivek333:x:1000:1000:,,,:/home/vivek333:/bin/bash
+kevin:x:1001:1001:,,,:/home/kevin:/bin/bash
+keviv:x:1002:1002:v,,,:/home/keviv:/bin/bash
+cat:x:1003:1003:,,,:/home/cat:/bin/bash
+james:x:1004:1004:,,,:/home/james:/bin/bash
+peter:x:1005:1005:,,,:/home/peter:/bin/bash
+joe:x:1006:1006::/home/joe:/bin/sh
+nicole:x:1007:1007:,,,:/home/nicole:/bin/bash
+ram:x:1008:1010:,,,:/home/ram:/bin/bash
+dnsmasq:x:112:65534:dnsmasq,,,:/var/lib/misc:/usr/sbin/nologin
+cherry:x:1009:1011:,,,:/home/cherry:/bin/bash
+vivek333@C272LCOK:~$ cat /etc/group
+root:x:0:
+daemon:x:1:
+bin:x:2:
+sys:x:3:
+adm:x:4:syslog,vivek333
+tty:x:5:syslog
+disk:x:6:
+lp:x:7:
+mail:x:8:
+news:x:9:
+uucp:x:10:
+man:x:12:
+proxy:x:13:
+kmem:x:15:
+dialout:x:20:vivek333
+fax:x:21:
+voice:x:22:
+cdrom:x:24:vivek333
+floppy:x:25:vivek333
+tape:x:26:
+sudo:x:27:vivek333
+audio:x:29:vivek333
+dip:x:30:vivek333
+www-data:x:33:
+backup:x:34:
+operator:x:37:
+list:x:38:
+irc:x:39:
+src:x:40:
+gnats:x:41:
+shadow:x:42:
+utmp:x:43:
+video:x:44:vivek333
+sasl:x:45:
+plugdev:x:46:vivek333
+staff:x:50:
+games:x:60:
+users:x:100:
+nogroup:x:65534:
+systemd-journal:x:101:
+systemd-network:x:102:
+systemd-resolve:x:103:
+systemd-timesync:x:104:
+crontab:x:105:
+messagebus:x:106:
+input:x:107:
+kvm:x:108:
+render:x:109:
+syslog:x:110:
+tss:x:111:
+uuidd:x:112:
+tcpdump:x:113:
+ssh:x:114:
+landscape:x:115:
+admin:x:116:
+netdev:x:117:vivek333
+lxd:x:118:
+vivek333:x:1000:
+docker:x:999:vivek333
+kevin:x:1001:
+keviv:x:1002:
+cat:x:1003:
+james:x:1004:
+peter:x:1005:
+joe:x:1006:
+nicole:x:1007:
+training:x:1008:
+training1:x:1009:
+ram:x:1010:
+cherry:x:1011:
+vivek333@C272LCOK:~$ sudo addgroup training2
+Adding group `training2' (GID 1012) ...
+Done.
+vivek333@C272LCOK:~$ cat /etc/group
+root:x:0:
+daemon:x:1:
+bin:x:2:
+sys:x:3:
+adm:x:4:syslog,vivek333
+tty:x:5:syslog
+disk:x:6:
+lp:x:7:
+mail:x:8:
+news:x:9:
+uucp:x:10:
+man:x:12:
+proxy:x:13:
+kmem:x:15:
+dialout:x:20:vivek333
+fax:x:21:
+voice:x:22:
+cdrom:x:24:vivek333
+floppy:x:25:vivek333
+tape:x:26:
+sudo:x:27:vivek333
+audio:x:29:vivek333
+dip:x:30:vivek333
+www-data:x:33:
+backup:x:34:
+operator:x:37:
+list:x:38:
+irc:x:39:
+src:x:40:
+gnats:x:41:
+shadow:x:42:
+utmp:x:43:
+video:x:44:vivek333
+sasl:x:45:
+plugdev:x:46:vivek333
+staff:x:50:
+games:x:60:
+users:x:100:
+nogroup:x:65534:
+systemd-journal:x:101:
+systemd-network:x:102:
+systemd-resolve:x:103:
+systemd-timesync:x:104:
+crontab:x:105:
+messagebus:x:106:
+input:x:107:
+kvm:x:108:
+render:x:109:
+syslog:x:110:
+tss:x:111:
+uuidd:x:112:
+tcpdump:x:113:
+ssh:x:114:
+landscape:x:115:
+admin:x:116:
+netdev:x:117:vivek333
+lxd:x:118:
+vivek333:x:1000:
+docker:x:999:vivek333
+kevin:x:1001:
+keviv:x:1002:
+cat:x:1003:
+james:x:1004:
+peter:x:1005:
+joe:x:1006:
+nicole:x:1007:
+training:x:1008:
+training1:x:1009:
+ram:x:1010:
+cherry:x:1011:
+training2:x:1012:
+vivek333@C272LCOK:~$ su cherry
+Password:
+cherry@C272LCOK:/home/vivek333$ ls
+Hashmum    docker        funct1.sh        nano.save    outputfile.txt  temp
+animal.sh  employee.txt  geekfile.txt     nano.save.1  report.txt      vivekrole
+array.sh   first.sh      getting-started  oddeven.sh   report_new.txt
+cherry@C272LCOK:/home/vivek333$ cd .
+cherry@C272LCOK:/home/vivek333$ cd ..
+cherry@C272LCOK:/home$ cd ..
+cherry@C272LCOK:/$ mkdir file1
+mkdir: cannot create directory ‘file1’: Permission denied
+cherry@C272LCOK:/$ touch file1
+touch: cannot touch 'file1': Permission denied
+cherry@C272LCOK:/$ sudo mkdir file1
+[sudo] password for cherry:
+cherry is not in the sudoers file.  This incident will be reported.
+cherry@C272LCOK:/$ su vivek333
+Password:
+vivek333@C272LCOK:/$ ls -il
+total 688
+             12 lrwxrwxrwx   1 root root      7 Apr 23  2020 bin -> usr/bin
+           8193 drwxr-xr-x   2 root root   4096 Apr 23  2020 boot
+              1 drwxr-xr-x   8 root root   2720 Jan 20 10:08 dev
+          16385 drwxr-xr-x 100 root root   4096 Jan 20 10:42 etc
+          16386 drwxr-xr-x  11 root root   4096 Jan 20 10:40 home
+281474977218513 -rwxr-xr-x   2 root root 636192 Dec 27 09:27 init
+           1559 lrwxrwxrwx   1 root root      7 Apr 23  2020 lib -> usr/lib
+           1560 lrwxrwxrwx   1 root root      9 Apr 23  2020 lib32 -> usr/lib32
+           1561 lrwxrwxrwx   1 root root      9 Apr 23  2020 lib64 -> usr/lib64
+           1562 lrwxrwxrwx   1 root root     10 Apr 23  2020 libx32 -> usr/libx32
+             11 drwx------   2 root root  16384 Apr 10  2019 lost+found
+          24577 drwxr-xr-x   2 root root   4096 Apr 23  2020 media
+          24578 drwxr-xr-x   4 root root   4096 Dec 30 19:59 mnt
+          32769 drwxr-xr-x   3 root root   4096 Dec 30 21:13 opt
+              1 dr-xr-xr-x 174 root root      0 Jan 20 10:08 proc
+          40961 drwx------   3 root root   4096 Jan  9 13:07 root
+              1 drwxr-xr-x   9 root root    180 Jan 20 10:40 run
+           1565 lrwxrwxrwx   1 root root      8 Apr 23  2020 sbin -> usr/sbin
+          49153 drwxr-xr-x   2 root root   4096 Apr 10  2020 snap
+          49154 drwxr-xr-x   2 root root   4096 Apr 23  2020 srv
+              1 dr-xr-xr-x  11 root root      0 Jan 20 10:08 sys
+          57346 drwxrwxrwt   3 root root   4096 Jan 17 20:36 tmp
+          65537 drwxr-xr-x  15 root root   4096 Jan  7 19:17 usr
+          40963 drwxr-xr-x  13 root root   4096 Apr 23  2020 var
+vivek333@C272LCOK:/$ ls
+bin   dev  home  lib    lib64   lost+found  mnt  proc  run   snap  sys  usr
+boot  etc  init  lib32  libx32  media       opt  root  sbin  srv   tmp  var
+vivek333@C272LCOK:/$ cd
+vivek333@C272LCOK:~$ pwd
+/home/vivek333
+vivek333@C272LCOK:~$ ls
+Hashmum    docker        funct1.sh        nano.save    outputfile.txt  temp
+animal.sh  employee.txt  geekfile.txt     nano.save.1  report.txt      vivekrole
+array.sh   first.sh      getting-started  oddeven.sh   report_new.txt
+vivek333@C272LCOK:~$ file employee.txt
+employee.txt: ASCII text
+vivek333@C272LCOK:~$ ls -a
+.              .bashrc     .motd_shown                animal.sh     geekfile.txt     report.txt
+..             .config     .profile                   array.sh      getting-started  report_new.txt
+.Xauthority    .docker     .python_history            docker        nano.save        temp
+.ansible       .gitconfig  .sudo_as_admin_successful  employee.txt  nano.save.1      vivekrole
+.bash_history  .landscape  .wsl-config                first.sh      oddeven.sh
+.bash_logout   .local      Hashmum                    funct1.sh     outputfile.txt
+vivek333@C272LCOK:~$ ls -l
+total 68
+drwxr-xr-x  2 vivek333 vivek333 4096 Jan  5 17:52 Hashmum
+-rwxrwxr--  1 vivek333 vivek333  260 Jan  7 22:15 animal.sh
+-rwxrwxr--  1 vivek333 vivek333  120 Jan  7 22:19 array.sh
+drwxr-xr-x  5 vivek333 vivek333 4096 Jan  4 23:38 docker
+-rw-r--r--  1 vivek333 vivek333  209 Jan 18 22:02 employee.txt
+-rwxrwxr--  1 vivek333 vivek333  119 Jan  7 22:10 first.sh
+-rwxrwxrwx  1 vivek333 vivek333  107 Jan  7 22:25 funct1.sh
+-rw-r--r--  1 vivek333 vivek333  165 Jan 18 20:33 geekfile.txt
+drwxr-xr-x  6 vivek333 vivek333 4096 Dec 30 21:19 getting-started
+-rw-------  1 vivek333 vivek333  127 Jan  7 22:32 nano.save
+-rw-------  1 vivek333 vivek333  220 Jan 19 22:09 nano.save.1
+-rwxrwxrwx  1 vivek333 vivek333  125 Jan  7 22:22 oddeven.sh
+-rw-r--r--  1 vivek333 vivek333  184 Jan 20 10:22 outputfile.txt
+-rwxrwxrwx  1 vivek333 vivek333  241 Jan 19 18:50 report.txt
+-rw-r--r--  1 vivek333 vivek333  241 Jan 19 18:53 report_new.txt
+drwxr-xr-x  4 vivek333 vivek333 4096 Jan 20 10:37 temp
+drwxr-xr-x 10 vivek333 vivek333 4096 Jan  7 22:28 vivekrole
+vivek333@C272LCOK:~$ chmod o-w employee.txt
+vivek333@C272LCOK:~$ ls -l employee.txt
+-rw-r--r-- 1 vivek333 vivek333 209 Jan 18 22:02 employee.txt
+vivek333@C272LCOK:~$ ls -alh
+total 140K
+drwxr-xr-x 12 vivek333 vivek333 4.0K Jan 19 22:09 .
+drwxr-xr-x 11 root     root     4.0K Jan 20 10:40 ..
+-rw-------  1 vivek333 vivek333   54 Dec 31 09:50 .Xauthority
+drwxr-xr-x  3 vivek333 vivek333 4.0K Jan  7 22:28 .ansible
+-rw-------  1 vivek333 vivek333  14K Jan 20 10:26 .bash_history
+-rw-r--r--  1 vivek333 vivek333  220 Dec 30 19:59 .bash_logout
+-rw-r--r--  1 vivek333 vivek333 3.7K Dec 30 19:59 .bashrc
+drwx------  4 vivek333 vivek333 4.0K Jan  7 19:28 .config
+drwx------  2 vivek333 vivek333 4.0K Jan  9 13:49 .docker
+-rw-r--r--  1 vivek333 vivek333   26 Dec 30 21:29 .gitconfig
+drwxr-xr-x  2 vivek333 vivek333 4.0K Dec 30 19:59 .landscape
+drwxr-xr-x  3 vivek333 vivek333 4.0K Dec 30 21:20 .local
+-rw-r--r--  1 vivek333 vivek333    0 Jan 20 10:08 .motd_shown
+-rw-r--r--  1 vivek333 vivek333  807 Dec 30 19:59 .profile
+-rw-------  1 vivek333 vivek333  188 Jan  7 22:04 .python_history
+-rw-r--r--  1 vivek333 vivek333    0 Dec 30 20:06 .sudo_as_admin_successful
+-rw-r--r--  1 vivek333 vivek333 1.9K Dec 30 22:01 .wsl-config
+drwxr-xr-x  2 vivek333 vivek333 4.0K Jan  5 17:52 Hashmum
+-rwxrwxr--  1 vivek333 vivek333  260 Jan  7 22:15 animal.sh
+-rwxrwxr--  1 vivek333 vivek333  120 Jan  7 22:19 array.sh
+drwxr-xr-x  5 vivek333 vivek333 4.0K Jan  4 23:38 docker
+-rw-r--r--  1 vivek333 vivek333  209 Jan 18 22:02 employee.txt
+-rwxrwxr--  1 vivek333 vivek333  119 Jan  7 22:10 first.sh
+-rwxrwxrwx  1 vivek333 vivek333  107 Jan  7 22:25 funct1.sh
+-rw-r--r--  1 vivek333 vivek333  165 Jan 18 20:33 geekfile.txt
+drwxr-xr-x  6 vivek333 vivek333 4.0K Dec 30 21:19 getting-started
+-rw-------  1 vivek333 vivek333  127 Jan  7 22:32 nano.save
+-rw-------  1 vivek333 vivek333  220 Jan 19 22:09 nano.save.1
+-rwxrwxrwx  1 vivek333 vivek333  125 Jan  7 22:22 oddeven.sh
+-rw-r--r--  1 vivek333 vivek333  184 Jan 20 10:22 outputfile.txt
+-rwxrwxrwx  1 vivek333 vivek333  241 Jan 19 18:50 report.txt
+-rw-r--r--  1 vivek333 vivek333  241 Jan 19 18:53 report_new.txt
+drwxr-xr-x  4 vivek333 vivek333 4.0K Jan 20 10:37 temp
+drwxr-xr-x 10 vivek333 vivek333 4.0K Jan  7 22:28 vivekrole
+vivek333@C272LCOK:~$ touch empty
+vivek333@C272LCOK:~$ ls
+Hashmum    docker        first.sh      getting-started  oddeven.sh      report_new.txt
+animal.sh  employee.txt  funct1.sh     nano.save        outputfile.txt  temp
+array.sh   empty         geekfile.txt  nano.save.1      report.txt      vivekrole
+vivek333@C272LCOK:~$ ls -alh empty
+-rw-rw-r-- 1 vivek333 vivek333 0 Jan 20 10:48 empty
+vivek333@C272LCOK:~$ ls
+Hashmum    docker        first.sh      getting-started  oddeven.sh      report_new.txt
+animal.sh  employee.txt  funct1.sh     nano.save        outputfile.txt  temp
+array.sh   empty         geekfile.txt  nano.save.1      report.txt      vivekrole
+vivek333@C272LCOK:~$ touch emp1
+vivek333@C272LCOK:~$ ls
+Hashmum    docker        empty      geekfile.txt     nano.save.1     report.txt      vivekrole
+animal.sh  emp1          first.sh   getting-started  oddeven.sh      report_new.txt
+array.sh   employee.txt  funct1.sh  nano.save        outputfile.txt  temp
+vivek333@C272LCOK:~$ rm emp1
+vivek333@C272LCOK:~$ ls
+Hashmum    docker        first.sh      getting-started  oddeven.sh      report_new.txt
+animal.sh  employee.txt  funct1.sh     nano.save        outputfile.txt  temp
+array.sh   empty         geekfile.txt  nano.save.1      report.txt      vivekrole
+vivek333@C272LCOK:~$ find . -name *.*
+find: paths must precede expression: `array.sh'
+find: possible unquoted pattern after predicate `-name'?
+vivek333@C272LCOK:~$ find . -name *.txt
+find: paths must precede expression: `geekfile.txt'
+find: possible unquoted pattern after predicate `-name'?
+vivek333@C272LCOK:~$ find . -name *.txt
+find: paths must precede expression: `geekfile.txt'
+find: possible unquoted pattern after predicate `-name'?
+vivek333@C272LCOK:~$ find . -name *.*
+find: paths must precede expression: `array.sh'
+find: possible unquoted pattern after predicate `-name'?
+vivek333@C272LCOK:~$ find . -name *.*
+putfile.txtfind: paths must precede expression: `array.sh'
+find: possible unquoted pattern after predicate `-name'?
+vivek333@C272LCOK:~$ find . -name *.txt
+./outputfile.txt
+vivek333@C272LCOK:~$ find . -name *.*
+./outputfile.txt
+vivek333@C272LCOK:~$ find . -type d -name "t*"
+./docker/.git/refs/tags
+./vivekrole/tasks
+./vivekrole/tests
+./vivekrole/templates
+./getting-started/.git/refs/tags
+./getting-started/docs/tutorial
+./temp
+./.ansible/tmp
+vivek333@C272LCOK:~$ ls
+Hashmum    docker        first.sh      getting-started  oddeven.sh      report_new.txt
+animal.sh  employee.txt  funct1.sh     nano.save        outputfile.txt  temp
+array.sh   empty         geekfile.txt  nano.save.1      report.txt      vivekrole
+vivek333@C272LCOK:~$ find . -name empty -delete
+vivek333@C272LCOK:~$ ls
+Hashmum    docker        funct1.sh        nano.save    outputfile.txt  temp
+animal.sh  employee.txt  geekfile.txt     nano.save.1  report.txt      vivekrole
+array.sh   first.sh      getting-started  oddeven.sh   report_new.txt
+vivek333@C272LCOK:~$ free
+              total        used        free      shared  buff/cache   available
+Mem:       12597752       95940    12392048          76      109764    12297036
+Swap:       4194304           0     4194304
+vivek333@C272LCOK:~$ uptime
+ 10:53:20 up 44 min,  0 users,  load average: 0.00, 0.00, 0.00
+vivek333@C272LCOK:~$ sudo apt install nmap
+Reading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following packages were automatically installed and are no longer required:
+  docker-ce-rootless-extras docker-scan-plugin slirp4netns
+Use 'sudo apt autoremove' to remove them.
+Suggested packages:
+  ncat ndiff zenmap
+The following NEW packages will be installed:
+  nmap
+0 upgraded, 1 newly installed, 0 to remove and 1 not upgraded.
+Need to get 1662 kB of archives.
+After this operation, 4499 kB of additional disk space will be used.
+Get:1 http://archive.ubuntu.com/ubuntu focal/universe amd64 nmap amd64 7.80+dfsg1-2build1 [1662 kB]
+Fetched 1662 kB in 5s (334 kB/s)
+Selecting previously unselected package nmap.
+(Reading database ... 43046 files and directories currently installed.)
+Preparing to unpack .../nmap_7.80+dfsg1-2build1_amd64.deb ...
+Unpacking nmap (7.80+dfsg1-2build1) ...
+Setting up nmap (7.80+dfsg1-2build1) ...
+Processing triggers for man-db (2.9.1-1) ...
+vivek333@C272LCOK:~$ sudo adduser apple
+Adding user `apple' ...
+Adding new group `apple' (1013) ...
+Adding new user `apple' (1010) with group `apple' ...
+Creating home directory `/home/apple' ...
+Copying files from `/etc/skel' ...
+New password:
+Retype new password:
+passwd: password updated successfully
+Changing the user information for apple
+Enter the new value, or press ENTER for the default
+        Full Name []:
+        Room Number []:
+        Work Phone []:
+        Home Phone []:
+        Other []:
+Is the information correct? [Y/n] y
+vivek333@C272LCOK:~$ su apple
+Password:
+apple@C272LCOK:/home/vivek333$ su vivek333
+Password:
+vivek333@C272LCOK:~$ sudo apt update
+Hit:1 http://archive.ubuntu.com/ubuntu focal InRelease
+Hit:2 https://download.docker.com/linux/ubuntu focal InRelease
+Get:3 http://archive.ubuntu.com/ubuntu focal-updates InRelease [114 kB]
+Get:4 http://archive.ubuntu.com/ubuntu focal-backports InRelease [108 kB]
+Get:5 http://security.ubuntu.com/ubuntu focal-security InRelease [114 kB]
+Get:6 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 Packages [1509 kB]
+Get:7 http://archive.ubuntu.com/ubuntu focal-updates/main Translation-en [296 kB]
+Get:8 http://security.ubuntu.com/ubuntu focal-security/main amd64 Packages [1177 kB]
+Get:9 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 c-n-f Metadata [14.7 kB]
+Get:10 http://archive.ubuntu.com/ubuntu focal-updates/restricted amd64 Packages [736 kB]
+Get:11 http://archive.ubuntu.com/ubuntu focal-updates/restricted Translation-en [105 kB]
+Get:12 http://archive.ubuntu.com/ubuntu focal-updates/universe amd64 Packages [893 kB]
+Get:13 http://security.ubuntu.com/ubuntu focal-security/main Translation-en [210 kB]
+Get:14 http://archive.ubuntu.com/ubuntu focal-updates/universe Translation-en [196 kB]
+Get:15 http://security.ubuntu.com/ubuntu focal-security/main amd64 c-n-f Metadata [9100 B]
+Get:16 http://archive.ubuntu.com/ubuntu focal-updates/universe amd64 c-n-f Metadata [20.0 kB]
+Get:17 http://archive.ubuntu.com/ubuntu focal-backports/universe amd64 Packages [19.5 kB]
+Get:18 http://security.ubuntu.com/ubuntu focal-security/restricted amd64 Packages [686 kB]
+Get:19 http://archive.ubuntu.com/ubuntu focal-backports/universe Translation-en [13.4 kB]
+Get:20 http://archive.ubuntu.com/ubuntu focal-backports/universe amd64 c-n-f Metadata [672 B]
+Get:21 http://security.ubuntu.com/ubuntu focal-security/restricted Translation-en [97.9 kB]
+Get:22 http://security.ubuntu.com/ubuntu focal-security/universe amd64 Packages [675 kB]
+Get:23 http://security.ubuntu.com/ubuntu focal-security/universe Translation-en [115 kB]
+Get:24 http://security.ubuntu.com/ubuntu focal-security/universe amd64 c-n-f Metadata [13.0 kB]
+Fetched 7121 kB in 13s (528 kB/s)
+Reading package lists... Done
+Building dependency tree
+Reading state information... Done
+10 packages can be upgraded. Run 'apt list --upgradable' to see them.
+vivek333@C272LCOK:~$ pmap
+
+Usage:
+ pmap [options] PID [PID ...]
+
+Options:
+ -x, --extended              show details
+ -X                          show even more details
+            WARNING: format changes according to /proc/PID/smaps
+ -XX                         show everything the kernel provides
+ -c, --read-rc               read the default rc
+ -C, --read-rc-from=<file>   read the rc from file
+ -n, --create-rc             create new default rc
+ -N, --create-rc-to=<file>   create new rc to file
+            NOTE: pid arguments are not allowed with -n, -N
+ -d, --device                show the device format
+ -q, --quiet                 do not display header and footer
+ -p, --show-path             show path in the mapping
+ -A, --range=<low>[,<high>]  limit results to the given range
+
+ -h, --help     display this help and exit
+ -V, --version  output version information and exit
+
+For more details see pmap(1).
+vivek333@C272LCOK:~$ top
+top - 10:56:35 up 48 min,  0 users,  load average: 0.01, 0.01, 0.00
+Tasks:  17 total,   1 running,  16 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.8 us,  0.0 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem :  12302.5 total,  11839.3 free,    103.1 used,    360.1 buff/cache
+MiB Swap:   4096.0 total,   4096.0 free,      0.0 used.  11956.6 avail Mem
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    1 root      20   0     900    532    464 S   0.0   0.0   0:00.02 init
+    8 root      20   0     900     88     20 S   0.0   0.0   0:00.11 init
+    9 vivek333  20   0   10040   5020   3284 S   0.0   0.0   0:00.09 bash
+  199 vivek333  20   0    2612    540    468 S   0.0   0.0   0:00.00 NF
+  201 vivek333  20   0   13028   3920   3548 S   0.0   0.0   0:00.00 awk
+  363 root      20   0     900     88     20 S   0.0   0.0   0:00.00 init
+  364 root      20   0     900     88     20 S   0.0   0.0   0:00.67 init
+  365 vivek333  20   0   10172   5340   3480 S   0.0   0.0   0:00.36 bash
+  688 root      20   0   10488   3940   3240 S   0.0   0.0   0:00.01 su
+  689 cherry    20   0   10000   4984   3368 S   0.0   0.0   0:00.02 bash
+  700 root      20   0   10488   4008   3308 S   0.0   0.0   0:00.01 su
+  701 vivek333  20   0   10000   5024   3360 S   0.0   0.0   0:00.10 bash
+ 1656 root      20   0   10484   4104   3408 S   0.0   0.0   0:00.00 su
+ 1657 apple     20   0   10000   5064   3444 S   0.0   0.0   0:00.01 bash
+ 1664 root      20   0   10492   4168   3468 S   0.0   0.0   0:00.00 su
+ 1665 vivek333  20   0   10000   5020   3372 S   0.0   0.0   0:00.01 bash
+ 2029 vivek333  20   0   10876   3728   3212 R   0.0   0.0   0:00.00 top
+
+
+
+
+
+vivek333@C272LCOK:~$ env
+SHELL=/bin/bash
+WSL_DISTRO_NAME=Ubuntu-20.04:28 2021
+NAME=C272LCOKLCOK:~$ info
+PWD=/home/vivek333
+LOGNAME=vivek333
+HOME=/home/vivek333
+LANG=C.UTF-8
+WSL_INTEROP=/run/WSL/364_interop
+LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
+LESSCLOSE=/usr/bin/lesspipe %s %s
+TERM=xterm-256color
+LESSOPEN=| /usr/bin/lesspipe %s
+USER=vivek333
+SHLVL=5
+WSLENV=
+XDG_DATA_DIRS=/usr/local/share:/usr/share:/var/lib/snapd/desktop
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+MAIL=/var/mail/vivek333
+HOSTTYPE=x86_64
+OLDPWD=/
+_=/usr/bin/env
+vivek333@C272LCOK:~$ last
+
+wtmp begins Thu Dec 30 19:59:28 2021
+vivek333@C272LCOK:~$ ps
+  PID TTY          TIME CMD
+  365 pts/1    00:00:00 bash
+  701 pts/1    00:00:00 bash
+ 1665 pts/1    00:00:00 bash
+ 2034 pts/1    00:00:00 ps
+vivek333@C272LCOK:~$ df
+Filesystem     1K-blocks     Used Available Use% Mounted on
+/dev/sdb       263174212  2567232 247168824   2% /
+tmpfs            6298876        0   6298876   0% /mnt/wsl
+tools          247829500 77152312 170677188  32% /init
+none             6296792        0   6296792   0% /dev
+none             6298876       12   6298864   1% /run
+none             6298876        0   6298876   0% /run/lock
+none             6298876        0   6298876   0% /run/shm
+none             6298876        0   6298876   0% /run/user
+tmpfs            6298876        0   6298876   0% /sys/fs/cgroup
+drivers        247829500 77152312 170677188  32% /usr/lib/wsl/drivers
+lib            247829500 77152312 170677188  32% /usr/lib/wsl/lib
+C:\            247829500 77152312 170677188  32% /mnt/c
+vivek333@C272LCOK:~$
