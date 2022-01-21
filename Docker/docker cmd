@@ -1,0 +1,349 @@
+PS C:\Users\189904\Desktop\SimpleWhaleDemo-master> docker -v
+Docker version 20.10.11, build dea9396
+PS C:\Users\189904\Desktop\SimpleWhaleDemo-master> docker images
+error during connect: In the default daemon configuration on Windows, the docker client must be run with elevated privileges to connect.: Get "http://%2F%2F.%2Fpipe%2Fdocker_engine/v1.24/images/json": open //./pipe/docker_engine: The system cannot find the file specified.PS C:\Users\189904\Desktop\SimpleWhaleDemo-master> docker images
+REPOSITORY                           TAG                                                     IMAGE ID       CREATED         SIZE  
+findlove/linux_tweet_app             latest                                                  d9ba48516750   14 hours ago    141MB 
+linux_tweet_app                      latest                                                  d9ba48516750   14 hours ago    141MB 
+mysql                                5.7                                                     42f82e150ec2   24 hours ago    448MB 
+node                                 12-alpine                                               8a6e486e9817   9 days ago      91.2MB
+findlove/start                       <none>                                                  2154d59d4b97   10 days ago     28.8MB
+findlove/start                       <none>                                                  7d7620db84ae   10 days ago     28.8MB
+<none>                               <none>                                                  372698d6b136   10 days ago     23.5MB      
+findlove/simplewhale                 latest                                                  822c936e3f28   2 weeks ago     23.5MB      
+prom/prometheus                      <none>                                                  a3d385fc29f9   4 weeks ago     201MB       
+alpine                               latest                                                  c059bfaa849c   8 weeks ago     5.59MB      
+docker/desktop-kubernetes            kubernetes-v1.22.4-cni-v0.8.5-critools-v1.17.0-debian   493a106d3678   2 months ago    294MB       
+k8s.gcr.io/kube-apiserver            v1.22.4                                                 8a5cc299272d   2 months ago    128MB       
+k8s.gcr.io/kube-scheduler            v1.22.4                                                 721ba97f54a6   2 months ago    52.7MB      
+k8s.gcr.io/kube-controller-manager   v1.22.4                                                 0ce02f92d3e4   2 months ago    122MB       
+k8s.gcr.io/kube-proxy                v1.22.4                                                 edeff87e4802   2 months ago    104MB       
+k8s.gcr.io/etcd                      3.5.0-0                                                 004811815584   7 months ago    295MB       
+k8s.gcr.io/coredns/coredns           v1.8.4                                                  8d147537fb7d   7 months ago    47.6MB      
+docker/desktop-vpnkit-controller     v2.0                                                    8c2c38aa676e   8 months ago    21MB        
+docker/desktop-storage-provisioner   v2.0                                                    99f89471f470   8 months ago    41.9MB      
+k8s.gcr.io/pause                     3.5                                                     ed210e3e4a5b   10 months ago   683kB       
+alpine                               3.5                                                     f80194ae2e0c   2 years ago     4MB
+PS C:\Users\189904\Desktop\SimpleWhaleDemo-master> docker run -dp 80:80 findlove/SimpleWhale    
+docker: invalid reference format: repository name must be lowercase.
+See 'docker run --help'.
+PS C:\Users\189904\Desktop\SimpleWhaleDemo-master> docker run -dp 80:80 findlove/simplewhale 
+c754c87865c8499d5d605097c20d4fa290da4dc80aacc70340920b295aaa17c6
+PS C:\Users\189904\Desktop\SimpleWhaleDemo-master> docker image ls
+REPOSITORY                           TAG                                                     IMAGE ID       CREATED         SIZE
+linux_tweet_app                      latest                                                  d9ba48516750   14 hours ago    141MB       
+findlove/linux_tweet_app             latest                                                  d9ba48516750   14 hours ago    141MB       
+mysql                                5.7                                                     42f82e150ec2   24 hours ago    448MB       
+node                                 12-alpine                                               8a6e486e9817   9 days ago      91.2MB      
+findlove/start                       <none>                                                  2154d59d4b97   10 days ago     28.8MB      
+findlove/start                       <none>                                                  7d7620db84ae   10 days ago     28.8MB      
+<none>                               <none>                                                  372698d6b136   10 days ago     23.5MB      
+findlove/simplewhale                 latest                                                  822c936e3f28   2 weeks ago     23.5MB      
+prom/prometheus                      <none>                                                  a3d385fc29f9   4 weeks ago     201MB       
+docker/getting-started               latest                                                  26d80cd96d69   7 weeks ago     28.5MB      
+alpine                               latest                                                  c059bfaa849c   8 weeks ago     5.59MB      
+nicolaka/netshoot                    latest                                                  f4c8dceca780   2 months ago    432MB       
+docker/desktop-kubernetes            kubernetes-v1.22.4-cni-v0.8.5-critools-v1.17.0-debian   493a106d3678   2 months ago    294MB       
+k8s.gcr.io/kube-apiserver            v1.22.4                                                 8a5cc299272d   2 months ago    128MB       
+k8s.gcr.io/kube-scheduler            v1.22.4                                                 721ba97f54a6   2 months ago    52.7MB      
+k8s.gcr.io/kube-controller-manager   v1.22.4                                                 0ce02f92d3e4   2 months ago    122MB       
+k8s.gcr.io/kube-proxy                v1.22.4                                                 edeff87e4802   2 months ago    104MB       
+k8s.gcr.io/etcd                      3.5.0-0                                                 004811815584   7 months ago    295MB       
+k8s.gcr.io/coredns/coredns           v1.8.4                                                  8d147537fb7d   7 months ago    47.6MB      
+docker/desktop-vpnkit-controller     v2.0                                                    8c2c38aa676e   8 months ago    21MB        
+docker/desktop-storage-provisioner   v2.0                                                    99f89471f470   8 months ago    41.9MB      
+k8s.gcr.io/pause                     3.5                                                     ed210e3e4a5b   10 months ago   683kB       
+alpine                               3.5                                                     f80194ae2e0c   2 years ago     4MB
+[+] Building 12.2s (7/7) FINISHED
+ => => transferring dockerfile: 134B                                                                                               0.0s 
+ => => transferring context: 2B                                                                                                    0.0s 
+ => [internal] load metadata for docker.io/library/nginx:alpine                                                                   11.9s 
+ => [internal] load build context                                                                                                  0.0s 
+ => CACHED [1/2] FROM docker.io/library/nginx:alpine@sha256:eb05700fe7baa6890b74278e39b66b2ed1326831f9ec3ed4bdc6361a4ac2f333       0.0s 
+ => [2/2] COPY static /usr/share/nginx/html                                                                                        0.1s 
+ => exporting to image                                                                                                             0.1s 
+ => => writing image sha256:edec6b0b6de491119f44f195baa9e15f205500d5f882a41b43dd7509dbce88e8                                       0.0s 
+
+Use 'docker scan' to run Snyk tests against images to find vulnerabilities and learn how to fix them
+PS C:\Users\189904\Desktop\SimpleWhaleDemo-master> docker run -dp 3000:3000 simplewhale
+PS C:\Users\189904\Desktop\SimpleWhaleDemo-master> docker run -dp 3001:3002 simplewhale
+ad39b7b89ae86242ce479d822bcac902139706cad172fc99cb49a272dbd2d242
+PS C:\Users\189904\Desktop\SimpleWhaleDemo-master> docker run -dp 80:80 simplewhale    
+596b5eaeb50889cc19ff5f71e69a956fd436ed5745222f1bf31d822baa3551ca
+docker: Error response from daemon: driver failed programming external connectivity on endpoint vibrant_thompson (c12dbbaad6aa029ed3eae279a36f76b9f6b5f5cffe9a561d4ef3ba9ce8808911): Bind for 0.0.0.0:80 failed: port is already allocated.
+PS C:\Users\189904\Desktop\SimpleWhaleDemo-master> docker run -dp 80:81 simplewhale
+c33c561085a46cef2760bc91bed1477eb792af7c99f553dfb478d06c505d08c3
+docker: Error response from daemon: driver failed programming external connectivity on endpoint musing_leakey (65bd5061687bfda568275ef8ePS C:\Users\189904\Desktop\SimpleWhaleDemo-master> docker run -dp 81:82 simplewhale 
+c0c9dbaefcc49291d50e0a763ddc60ec62f5fdc68893afa44765627c185744eb
+078096566abf986406c4239a207d00e9f93b6f05eb063c26c955451257e8df0d
+134f9d2656401d756d2cc72ec276e3c9159ef24cd9c19): Bind for 0.0.0.0:80 failed: port is already allocated.
+CONTAINER ID   IMAGE                  COMMAND                  CREATED          STATUS          PORTS                            NAMES  
+e_kepler
+ad39b7b89ae8   simplewhale            "/docker-entrypoint.…"   11 minutes ago   Up 10 minutes   80/tcp, 0.0.0.0:3001->3002/tcp   eloquent_wozniak
+2758c9b65d6b   simplewhale            "/docker-entrypoint.…"   12 minutes ago   Up 12 minutes   80/tcp, 0.0.0.0:3000->3000/tcp   hungry_liskov
+c754c87865c8   findlove/simplewhale   "/docker-entrypoint.…"   16 minutes ago   Up 16 minutes   0.0.0.0:80->80/tcp               admirinError response from daemon: You cannot remove a running container c754c87865c8499d5d605097c20d4fa290da4dc80aacc70340920b295aaa17c6. Stop the container before attempting removal or force remove
+PS C:\Users\189904\Desktop\SimpleWhaleDemo-master> docker stop c754c87865c8
+c754c87865c8
+PS C:\Users\189904\Desktop\SimpleWhaleDemo-master> docker rm c754c87865c8  
+c754c87865c8
+dd60ecbc92697463dd9bb46ab865274a5adffb76104dd378c192960ebd96801d
+PS C:\Users\189904\Desktop\SimpleWhaleDemo-master> docker ps
+CONTAINER ID   IMAGE         COMMAND                  CREATED          STATUS          PORTS                            NAMES
+dd60ecbc9269   simplewhale   "/docker-entrypoint.…"   2 minutes ago    Up 2 minutes    0.0.0.0:80->80/tcp               eloquent_northcutt
+c0c9dbaefcc4   simplewhale   "/docker-entrypoint.…"   9 minutes ago    Up 9 minutes    80/tcp, 0.0.0.0:81->82/tcp       hardcore_kepler 
+ad39b7b89ae8   simplewhale   "/docker-entrypoint.…"   14 minutes ago   Up 14 minutes   80/tcp, 0.0.0.0:3001->3002/tcp   eloquent_wozniakPS C:\Users\189904\Desktop\SimpleWhaleDemo-master> docker run -d ubuntu bash -c "shuf -i 1-10000 -n 1 -o /data.txt && tail -f /dev/null"Unable to find image 'ubuntu:latest' locally
+latest: Pulling from library/ubuntu
+Digest: sha256:b5a61709a9a44284d88fb12e5c48db0409cfad5b69d4ff8224077c57302df9cf
+a703c09ca570cea11007b18aea3358cb2952d58fe0f5e772f0c62d1f9697fe78
+PS C:\Users\189904\Desktop\SimpleWhaleDemo-master> docker ps
+CONTAINER ID   IMAGE         COMMAND                  CREATED          STATUS          PORTS                            NAMES
+a703c09ca570   ubuntu        "bash -c 'shuf -i 1-…"   4 minutes ago    Up 4 minutes                                     keen_shirley    
+dd60ecbc9269   simplewhale   "/docker-entrypoint.…"   10 minutes ago   Up 9 minutes    0.0.0.0:80->80/tcp               eloquent_northcutt
+c0c9dbaefcc4   simplewhale   "/docker-entrypoint.…"   17 minutes ago   Up 17 minutes   80/tcp, 0.0.0.0:81->82/tcp       hardcore_kepler 
+2758c9b65d6b   simplewhale   "/docker-entrypoint.…"   23 minutes ago   Up 23 minutes   80/tcp, 0.0.0.0:3000->3000/tcp   hungry_liskov   
+7365
+bin   dev  home  lib32  libx32  mnt  proc  run   srv  tmp  var
+boot  etc  lib   lib64  media   opt  root  sbin  sys  usr
+PS C:\Users\189904\Desktop\SimpleWhaleDemo-master> docker volume create todo-db
+todo-db
+PS C:\Users\189904\Desktop\SimpleWhaleDemo-master> docker ps
+CONTAINER ID   IMAGE         COMMAND                  CREATED          STATUS          PORTS                            NAMES
+a703c09ca570   ubuntu        "bash -c 'shuf -i 1-…"   8 minutes ago    Up 8 minutes                                     keen_shirley    
+dd60ecbc9269   simplewhale   "/docker-entrypoint.…"   13 minutes ago   Up 13 minutes   0.0.0.0:80->80/tcp               eloquent_northcuc0c9dbaefcc4   simplewhale   "/docker-entrypoint.…"   20 minutes ago   Up 20 minutes   80/tcp, 0.0.0.0:81->82/tcp       hardcore_kepler 
+ad39b7b89ae8   simplewhale   "/docker-entrypoint.…"   25 minutes ago   Up 25 minutes   80/tcp, 0.0.0.0:3001->3002/tcp   eloquent_wozniak2758c9b65d6b   simplewhale   "/docker-entrypoint.…"   26 minutes ago   Up 26 minutes   80/tcp, 0.0.0.0:3000->3000/tcp   hungry_liskov   
+todo-db
+PS C:\Users\189904\Desktop\SimpleWhaleDemo-master> docker run -dp 3002:3003 -v todo-db:/etc/todos simplewhale
+2c940afe7b7a6db06fb8f4a977df3b965d02bab34561b535e90ac1d0ad014432
+PS C:\Users\189904\Desktop\SimpleWhaleDemo-master> docker ps
+CONTAINER ID   IMAGE         COMMAND                  CREATED          STATUS          PORTS                            NAMES
+2c940afe7b7a   simplewhale   "/docker-entrypoint.…"   2 minutes ago    Up 2 minutes    80/tcp, 0.0.0.0:3002->3003/tcp   gracious_moore  
+dd60ecbc9269   simplewhale   "/docker-entrypoint.…"   18 minutes ago   Up 18 minutes   0.0.0.0:80->80/tcp               eloquent_northcutt
+c0c9dbaefcc4   simplewhale   "/docker-entrypoint.…"   25 minutes ago   Up 25 minutes   80/tcp, 0.0.0.0:81->82/tcp       hardcore_kepler 
+ad39b7b89ae8   simplewhale   "/docker-entrypoint.…"   30 minutes ago   Up 30 minutes   80/tcp, 0.0.0.0:3001->3002/tcp   eloquent_wozniak2758c9b65d6b   simplewhale   "/docker-entrypoint.…"   32 minutes ago   Up 32 minutes   80/tcp, 0.0.0.0:3000->3000/tcp   hungry_liskov   
+PS C:\Users\189904\Desktop\SimpleWhaleDemo-master> docker run -dp 80:80 -v todo-db:/etc/todos simplewhale    
+4fde50de2ec3152deafbb5c2cc97e80c28d8c909c1dfcdc7124f47336ad088c4
+docker: Error response from daemon: driver failed programming external connectivity on endpoint nervous_swirles (73eacae3fc073b2a835e38f5d584e024b2927a3dd9fb2a699cfc086a3d646ad3): Bind for 0.0.0.0:80 failed: port is already allocated.
+PS C:\Users\189904\Desktop\SimpleWhaleDemo-master> docker volume inspect
+"docker volume inspect" requires at least 1 argument.
+See 'docker volume inspect --help'.
+Usage:  docker volume inspect [OPTIONS] VOLUME [VOLUME...]
+
+Display detailed information on one or more volumes
+PS C:\Users\189904\Desktop\SimpleWhaleDemo-master> docker volume inspect todo-db
+    {
+        "CreatedAt": "2022-01-21T05:32:31Z",
+        "Driver": "local",
+        "Labels": {},
+        "Name": "todo-db",
+        "Scope": "local"
+    }
+]
+PS C:\Users\189904\Desktop\SimpleWhaleDemo-master> docker run -dp 3002:3003 -w /app -v "$(pwd):/app" node:12-alpine sh  "yarn install && yarn run dev"
+03bba91249ed84f6892c2879fed9a003df3627a9e6e29cb6dc2781b6d3db9bd5
+docker: Error response from daemon: driver failed programming external connectivity on endpoint sharp_morse (d306e704402b69de7001d7a6affc988794f7d868c2e76353b1bdccf5e642cfdd): Bind for 0.0.0.0:3002 failed: port is already allocated.
+ yarn run dev"
+docker: Error response from daemon: driver failed programming external connectivity on endpoint silly_chatelet (3c40e3dbfd153724bf84254e0d8d9f3d5b4a897d251382160601bc458b03c0aa): Bind for 0.0.0.0:3002 failed: port is already allocated.
+PS C:\Users\189904\Desktop\SimpleWhaleDemo-master> docker run -dp 3003:3004 -w /app -v "$(pwd):/app" node:12-alpine sh  "yarn install && yarn run dev"
+7ad5a302830eff1b2254bddd39eade5bedff91f065a8a37e93a0e8c18c8a42c1
+PS C:\Users\189904\Desktop\SimpleWhaleDemo-master> docker ps
+CONTAINER ID   IMAGE         COMMAND                  CREATED          STATUS          PORTS                            NAMES
+2c940afe7b7a   simplewhale   "/docker-entrypoint.…"   8 minutes ago    Up 7 minutes    80/tcp, 0.0.0.0:3002->3003/tcp   gracious_moore  
+dd60ecbc9269   simplewhale   "/docker-entrypoint.…"   24 minutes ago   Up 24 minutes   0.0.0.0:80->80/tcp               eloquent_northcutt
+ad39b7b89ae8   simplewhale   "/docker-entrypoint.…"   36 minutes ago   Up 36 minutes   80/tcp, 0.0.0.0:3001->3002/tcp   eloquent_wozniak2758c9b65d6b   simplewhale   "/docker-entrypoint.…"   38 minutes ago   Up 38 minutes   80/tcp, 0.0.0.0:3000->3000/tcp   hungry_liskov
+
+PS C:\Users\189904\Desktop\linux_tweet_app-master> docker run -d --network todo-app --network-alias mysql -v todo-mysql-data:/var/lib/mysql -e MQL_ROOT_PASSWORD=secret -e MYSQL_DATABASE=todos mysql:5.7
+Unable to find image 'mysql:5.7' locally
+5.7: Pulling from library/mysql
+72a69066d2fe: Pull complete
+93619dbc5b36: Pull complete
+e5c707858ec0: Pull complete
+fc41578cbf60: Pull complete
+4785d896ef10: Pull complete
+7d250cdc93be: Pull complete
+2efe6ef3579a: Pull complete
+40dc4a5ca43a: Pull complete
+cd6f90222f59: Pull complete
+Digest: sha256:66480693e01295d85954bb5dbe2f41f29ebceb57d3d8098ea0c9d201473f2d8b
+Status: Downloaded newer image for mysql:5.7
+693bf80569131bf65ac933e3d6093915c9d09067972de204f12f3f6a444159e7
+PS C:\Users\189904\Desktop\linux_tweet_app-master> docker ps
+CONTAINER ID   IMAGE                      COMMAND                  CREATED             STATUS             PORTS
+         NAMES
+f7fa82b78f4f   linux_tweet_app            "/docker-entrypoint.…"   About an hour ago   Up About an hour   80/tcp, 443/tcp, 0.0.0.0:3000->3000/tcp   strange_wu
+a54605a3df57   findlove/linux_tweet_app   "/docker-entrypoint.…"   2 hours ago         Up 2 hours         0.0.0.0:80->80/tcp, 443/tcp      
+         wizardly_solomon
+e MYSQL_ROOT_PASSWORD=secret -e MYSQL_DATABASE=todos mysql:5.7
+bd5e36ec82ecdde5c79832e3daa0f589c0699d1fc9c52af382c599cc5566f9ba
+PS C:\Users\189904\Desktop\linux_tweet_app-master> docker ps
+CONTAINER ID   IMAGE                      COMMAND                  CREATED             STATUS             PORTS
+         NAMES
+bd5e36ec82ec   mysql:5.7                  "docker-entrypoint.s…"   9 seconds ago       Up 8 seconds       3306/tcp, 33060/tcp
+         hopeful_keldysh
+f7fa82b78f4f   linux_tweet_app            "/docker-entrypoint.…"   About an hour ago   Up About an hour   80/tcp, 443/tcp, 0.0.0.0:3000->3000/tcp   strange_wu
+a54605a3df57   findlove/linux_tweet_app   "/docker-entrypoint.…"   2 hours ago         Up 2 hours         0.0.0.0:80->80/tcp, 443/tcp      
+         wizardly_solomon
+PS C:\Users\189904\Desktop\linux_tweet_app-master> docker exec -it bd5e36ec82ec mysql -u root -p
+Enter password: 
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 2
+Server version: 5.7.37 MySQL Community Server (GPL)
+
+Copyright (c) 2000, 2022, Oracle and/or its affiliates.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+mysql> SHOW DATABASES;
++--------------------+
++--------------------+
+| information_schema |
+| mysql              |
+| performance_schema |
+| sys                |
+| todos              |
++--------------------+
+5 rows in set (0.00 sec)
+
+mysql> EXIT
+Bye
+PS C:\Users\189904\Desktop\linux_tweet_app-master> docker run -it --network todo-app nicolaka/netshoot
+Unable to find image 'nicolaka/netshoot:latest' locally
+latest: Pulling from nicolaka/netshoot
+97518928ae5f: Already exists
+09706d35e05d: Downloading [=========>                                         ]  19.84MB/105.4MB
+4996ecc64030: Pulling fs layer
+9a11de879aaa: Download complete
+dcf41a6beeb6: Waiting
+d4d3a508f57b: Waiting
+ca86b0e825d1: Waiting
+7eeba344c2b1: Waiting
+d04aa1a002c2: Waiting
+7070cabd1e04: Waiting
+docker: error pulling image configuration: Get "https://production.cloudflare.docker.com/registry-v2/docker/registry/v2/blobs/sha256/f4/f4c8dceca780aa4e589f0113a6f36e3823a0f3a5037d06b7fbc9bed08788d9c4/data?verify=1642702973-n5h80af57kyCzrOgOhNCWeWZHug%3D": net/http: TLS handshake timeout.
+PS C:\Users\189904\Desktop\linux_tweet_app-master> docker run -it --network todo-app nicolaka/netshoot
+Unable to find image 'nicolaka/netshoot:latest' locally
+docker: Error response from daemon: Head "https://registry-1.docker.io/v2/nicolaka/netshoot/manifests/latest": net/http: TLS handshake timeout.
+See 'docker run --help'.
+PS C:\Users\189904\Desktop\linux_tweet_app-master> docker run -it --network todo-app nicolaka/netshoot
+Unable to find image 'nicolaka/netshoot:latest' locally
+latest: Pulling from nicolaka/netshoot
+docker: Get "https://registry-1.docker.io/v2/nicolaka/netshoot/manifests/sha256:946bc35532272713196a35fe673ebb9ef591198a1b7cc0fabf4ff6f576b39fa4": net/http: TLS handshake timeout.
+See 'docker run --help'.
+PS C:\Users\189904\Desktop\linux_tweet_app-master> docker run -it --network todo-app nicolaka/netshoot
+Unable to find image 'nicolaka/netshoot:latest' locally
+latest: Pulling from nicolaka/netshoot
+97518928ae5f: Already exists
+09706d35e05d: Downloading [====>                                              ]  8.579MB/105.4MB
+4996ecc64030: Pulling fs layer
+44f8e61e69d1: Waiting
+dcf41a6beeb6: Waiting
+d4d3a508f57b: Waiting
+ca86b0e825d1: Waiting
+c52dc2d61c4a: Waiting
+d04aa1a002c2: Waiting
+7070cabd1e04: Waiting
+6e3823a0f3a5037d06b7fbc9bed08788d9c4": net/http: TLS handshake timeout.
+See 'docker run --help'.
+PS C:\Users\189904\Desktop\linux_tweet_app-master> docker run -it --network todo-app nicolaka/netshoot
+Unable to find image 'nicolaka/netshoot:latest' locally
+docker: Error response from daemon: Head "https://registry-1.docker.io/v2/nicolaka/netshoot/manifests/latest": net/http: TLS handshake timeout.
+See 'docker run --help'.
+PS C:\Users\189904\Desktop\linux_tweet_app-master> docker run -it --network todo-app nicolaka/netshoot
+Unable to find image 'nicolaka/netshoot:latest' locally
+docker: Error response from daemon: Get "https://registry-1.docker.io/v2/": net/http: TLS handshake timeout.
+See 'docker run --help'.
+PS C:\Users\189904\Desktop\linux_tweet_app-master> docker run -it --network todo-app nicolaka/netshoot
+Unable to find image 'nicolaka/netshoot:latest' locally
+latest: Pulling from nicolaka/netshoot
+97518928ae5f: Already exists
+09706d35e05d: Pull complete
+4996ecc64030: Pull complete
+9a11de879aaa: Pull complete
+44f8e61e69d1: Pull complete
+dcf41a6beeb6: Pull complete
+d4d3a508f57b: Pull complete
+ca86b0e825d1: Pull complete
+7eeba344c2b1: Pull complete
+c52dc2d61c4a: Pull complete
+d04aa1a002c2: Pull complete
+7070cabd1e04: Pull complete
+Digest: sha256:d6942ec583d8e2818f5a5d7a71c303e861a70a11396ad9e9d25b355842e97589
+Status: Downloaded newer image for nicolaka/netshoot:latest
+                    dP            dP                           dP   
+                    88            88                           88
+88d888b. .d8888b. d8888P .d8888b. 88d888b. .d8888b. .d8888b. d8888P
+88'  `88 88ooood8   88   Y8ooooo. 88'  `88 88'  `88 88'  `88   88
+88    88 88.  ...   88         88 88    88 88.  .88 88.  .88   88
+dP    dP `88888P'   dP   `88888P' dP    dP `88888P' `88888P'   dP
+
+Welcome to Netshoot! (github.com/nicolaka/netshoot)
+
+
+
+ b95d53ce2c74  ~  dig mysql
+
+; <<>> DiG 9.16.22 <<>> mysql
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 15577
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;mysql.                         IN      A
+;; ANSWER SECTION:
+mysql.                  600     IN      A       172.19.0.2
+
+;; SERVER: 127.0.0.11#53(127.0.0.11)
+;; WHEN: Thu Jan 20 17:37:13 UTC 2022
+;; MSG SIZE  rcvd: 44
+
+
+ b95d53ce2c74  ~  exit
+PS C:\Users\189904\Desktop\linux_tweet_app-master> docker run -dp 3001:3000 -w /app -v "$(pwd):/app" --network todo-appe MYSQL_HOST=mysql -e MYSQL_USER=root -e MYSQL_PASSWORD=secret -e MYSQL_DB=todos node:12-alpine sh -c "yarn install && yn run dev"
+docker: invalid reference format: repository name must be lowercase.
+See 'docker run --help'.
+e MYSQL_USER=root -e MYSQL_PASSWORD=secret -e MYSQL_DB=todos node:12-alpine sh -c "yarn install && yn run dev"
+See 'docker run --help'.
+PS C:\Users\189904\Desktop\linux_tweet_app-master> docker run -dp 3001:3000 `
+>> -w /app -v "$(pwd):/app" `
+>> --network todo-app `
+>> -e MYSQL_HOST=mysql `
+>> -e MYSQL_USER=root `
+>> -e MYSQL_PASSWORD=secret `
+>> -e MYSQL_DB=todos `
+>> sh -c "yarn install && yn run dev"
+27a05e3b31eae519b650b99dadbfb5ad083cf0ea405f91be4191988de338e0ff
+PS C:\Users\189904\Desktop\linux_tweet_app-master> docker ps
+CONTAINER ID   IMAGE                      COMMAND                  CREATED          STATUS          PORTS
+   NAMES
+bd5e36ec82ec   mysql:5.7                  "docker-entrypoint.s…"   15 minutes ago   Up 15 minutes   3306/tcp, 33060/tcp
+   hopeful_keldysh
+f7fa82b78f4f   linux_tweet_app            "/docker-entrypoint.…"   2 hours ago      Up 2 hours      80/tcp, 443/tcp, 0.0.0.0:3000->3000/tcpa54605a3df57   findlove/linux_tweet_app   "/docker-entrypoint.…"   3 hours ago      Up 3 hours      0.0.0.0:80->80/tcp, 443/tcp
+   wizardly_solomon
+PS C:\Users\189904\Desktop\linux_tweet_app-master> docker ps
+CONTAINER ID   IMAGE                      COMMAND                  CREATED          STATUS          PORTS
+   NAMES
+bd5e36ec82ec   mysql:5.7                  "docker-entrypoint.s…"   15 minutes ago   Up 15 minutes   3306/tcp, 33060/tcp
+   hopeful_keldysh
+f7fa82b78f4f   linux_tweet_app            "/docker-entrypoint.…"   2 hours ago      Up 2 hours      80/tcp, 443/tcp, 0.0.0.0:3000->3000/tcp   strange_wu
+a54605a3df57   findlove/linux_tweet_app   "/docker-entrypoint.…"   3 hours ago      Up 3 hours      0.0.0.0:80->80/tcp, 443/tcp
+   wizardly_solomon
+PS C:\Users\189904\Desktop\linux_tweet_app-master> docker exec -it bd5e36ec82ec mysql -p todos
+Enter password: 
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 3
+Server version: 5.7.37 MySQL Community Server (GPL)
+
+Copyright (c) 2000, 2022, Oracle and/or its affiliates.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+mysql> select * from todo_items;
+Empty set
