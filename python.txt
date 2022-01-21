@@ -1,0 +1,125 @@
+vivek333@C272LCOK:~$ python3
+Python 3.8.10 (default, Nov 26 2021, 20:14:08)
+[GCC 9.3.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> 76+65
+141
+>>> 65+98
+163
+>>> "hello"
+'hello'
+>>> 87-43
+44
+>>> "welcome all"
+'welcome all'
+>>> 64*7
+448
+>>> 76/9
+8.444444444444445
+>>> name="Mark"
+>>> no=43
+>>> city="goa"
+>>> print("name is "+name+" , city:"+city+ " no"+str(no))
+name is Mark , city:goa no43
+>>> print("name is "+name+" , city:"+city+ " , no"+str(no))
+name is Mark , city:goa , no43
+>>> if num >= 0:
+... print("Postive or Zero")
+  File "<stdin>", line 2
+    print("Postive or Zero")
+    ^
+IndentationError: expected an indented block
+>>> if num >= 0:
+...    print("Postive or Zero")
+... else:
+...    print("Negative number")
+...
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'num' is not defined
+>>> if num >= 0:
+...    print("Postive or Zero")
+... else:
+...    print("Negative number")
+... 2
+  File "<stdin>", line 5
+    2
+    ^
+SyntaxError: invalid syntax
+>>> num=1245
+>>> if(num<10):
+...     print(num, "is a single digit num")
+... elif(num<100):
+...     print(num, "is a double digit num")
+... elif(num<1000):
+...     print(num, "is a triple digit num")
+... elif(num<10000):
+...     print(num, "is a four digit num")
+... 1245
+  File "<stdin>", line 9
+    1245
+    ^
+SyntaxError: invalid syntax
+>>> 1245 is a four digit num
+  File "<stdin>", line 1
+    1245 is a four digit num
+              ^
+SyntaxError: invalid syntax
+>>> name =input("enter your name")
+enter your name john
+>>> print(name)
+ john
+>>> fruits =["apple","orange","grapes","banana"]
+>>> print(fruits[2])
+grapes
+>>> for name in fruits:
+...     print(name)
+...
+apple
+orange
+grapes
+banana
+>>> def calculate(num):
+...     if(num>20):
+...             print(num*num)
+...     else:
+...             print(num+num)
+...
+>>> calculate(34)
+1156
+>>> calculate(45)
+2025
+>>> class student:
+...     def setstudent(self,id,name,course)
+  File "<stdin>", line 2
+    def setstudent(self,id,name,course)
+                                      ^
+SyntaxError: invalid syntax
+>>> class student:
+...     def setstudent(self,id,name,course):
+...             self.id=id
+...             self.name=name
+...             self.course=course
+...     def getstudent(self):
+...             print(self.id, " ", self.name, " ", self.course)
+...
+>>> std = student()
+>>> std.setstudent(123,"john","python")
+>>> std.getstudent()
+123   john   python
+>>> std.setstudent(123,"henry","DevOps")
+>>> std.getstudent()
+123   henry   DevOps
+>>> mylist=[65,65,65]
+>>> tpl=(564,65,987,mylist)
+>>> tpl
+(564, 65, 987, [65, 65, 65])
+>>> mylist.append(654)
+>>> tpl
+(564, 65, 987, [65, 65, 65, 654])
+>>> mylist.clear()
+>>> tpl
+(564, 65, 987, [])
+>>> tpl1=(3,4,5,6)
+>>> tpl+tpl1
+(564, 65, 987, [], 3, 4, 5, 6)
